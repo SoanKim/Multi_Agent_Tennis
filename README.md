@@ -1,7 +1,7 @@
 # The Environment
 This project is based on the Tennis Environment. The project environment is similar to, but not identical to the Tennis environment on the [Unity ML-Agents GitHub page.](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#tennis)</br>
 
-<img src="https://video.udacity-data.com/topher/2018/May/5af7955a_tennis/tennis.png", width=100>
+<img src="https://video.udacity-data.com/topher/2018/May/5af7955a_tennis/tennis.png">
 
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.</br>
 
