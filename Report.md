@@ -3,7 +3,7 @@ This is the third project of [Deep Reinforcement Learning Nanodegree](https://w
 
 ## Network
 **Batch Normalization** : Both Actor and Critic networks were batch normalized to collect less correlated samples from the replay buffer.<br/>
-**Double the Size of the Number of the Units**:In the Critic Network, the first and second fully connected layers receive double the size of states and actions to calculate the values of the two agents.<br/>
+**Double the Size of the Number of the Units** :In the Critic Network, the first and second fully connected layers receive double the size of states and actions to calculate the values of the two agents.<br/>
 
 ## Hyperparameters
 ### The parameters are based on the paper (Lillicrap et al., 2015), but modified a lot to increase the performance.
