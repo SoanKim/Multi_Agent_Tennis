@@ -2,11 +2,11 @@
 This is the third project of [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program of Udacity. This code is based on the [repository](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum) of Udacity, and the modifications regarding the two agents were based on the [blog post](https://opensourcelibs.com/lib/deeprl-p3-collaboration-competition).
 
 ## Network
-** Batch Normalization ** : Both Actor and Critic networks were batch normalized to collect less correlated samples from the replay buffer.<br/>
-** In the Critic Network, the first and second fully connected layers receive double the size of states and actions to calculate the values of the two agents.<br/>
+**Batch Normalization** : Both Actor and Critic networks were batch normalized to collect less correlated samples from the replay buffer.<br/>
+**Double the Size of the Number of the Units**:In the Critic Network, the first and second fully connected layers receive double the size of states and actions to calculate the values of the two agents.<br/>
 
 ## Hyperparameters
-### The parameters are based on the paper (Lillicrap et al., 2015)
+### The parameters are based on the paper (Lillicrap et al., 2015), but modified a lot to increase the performance.
 <pre>
 BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
 BATCH_SIZE = 128        # minibatch size<br/>
