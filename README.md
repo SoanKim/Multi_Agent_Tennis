@@ -35,5 +35,28 @@ Then, place the file in the p3_collab-compet/ folder in the DRLND GitHub reposit
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a [virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use this [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)</br>
 
+### Requirements
+tensorflow==1.7.1<br/>
+Pillow>=4.2.1<br/>
+matplotlib<br/>
+numpy>=1.11.0<br/>
+jupyter<br/>
+pytest>=3.2.2<br/>
+docopt<br/>
+pyyaml<br/>
+protobuf==3.5.2<br/>
+grpcio==1.11.0<br/>
+torch==0.4.0<br/>
+pandas<br/>
+scipy<br/>
+ipykernel<br/>
+
 ### Step 3: Explore the Environment</br>
 After you have followed the instructions above, open Tennis.ipynb (located in the p3_collab-compet/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.</br>
+
+### The Repository Structure
+* ``tennis.ipynb`` - Includes the environment, agent, model, and main functions.<br/>
+* ``Report.md`` - Includes hyperparameters, code implementation and future work.<br/>
+* ``result.png`` - Shows the cumulative rewards after training.<br/>
+* ``actor_checkpoint.pth`` - Contains the parameters of the local network of the actor.<br/>
+* ``critic_checkpoint.pth`` - Contains the parameters of the local network of the critic.<br/>
