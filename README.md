@@ -55,7 +55,7 @@ ipykernel<br/>
 After you have followed the instructions above, open Tennis.ipynb (located in the p3_collab-compet/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.</br>
 
 ### The Repository Structure
-* ``tennis.ipynb`` - Includes the environment, agent, model, and main functions.<br/>
+* ``Tennis.ipynb`` - Includes the environment, agent, model, and main functions.<br/>
 * ``Report.md`` - Includes hyperparameters, code implementation and future work.<br/>
 * ``result.png`` - Shows the cumulative rewards after training.<br/>
 * ``actor_checkpoint.pth`` - Contains the parameters of the local network of the actor.<br/>
