@@ -32,7 +32,7 @@ To enable for the two agents learn together, I reshaped the ``states`` size and 
 Referred to the [blog post](https://opensourcelibs.com/lib/deeprl-p3-collaboration-competition), I revised the DDPG algorithm with two separate agents (``agent_0`` and ``agent_1``) and concatenated their actions to fed it to the environement and ``Agent`` module.<br/>
 
 ### Result
-The combination of the batch normalization, proper hyperparameters, and the initial weight stabilization, the agent reached the target score(+0.5) around 40 episodes.<br/>
+The combination of the batch normalization, proper hyperparameters, and the initial weight stabilization, the agent reached the target score(+0.5) at the 45th episode.<br/>
 
 ### Ideas for Future Work
 * For this project, I manually assigned separate agents to solve the multi-agent problem. Next time, I want to solve it importing many agents simultaneously. <br/>
