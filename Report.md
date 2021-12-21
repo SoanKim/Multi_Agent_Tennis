@@ -35,4 +35,4 @@ Referred to the [blog post](https://opensourcelibs.com/lib/deeprl-p3-collaborati
 The combination of the batch normalization, proper hyperparameters, and the initial weight stabilization, the agent reached the target score(+0.5) around 40 episodes.<br/>
 
 ### Ideas for Future Work
-* For this project, I assigned separate agent to solve the multi agent problem. Next time, I want to solve it with many agents simultaneously.<br/>
+* For this project, I manually assigned separate agents to solve the multi-agent problem. Next time, I want to solve it importing many agents simultaneously. <br/>
